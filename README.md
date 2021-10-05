@@ -1,4 +1,4 @@
-# ACGAN_Tactile_sensor_data_Classifier
+# ACGAN for Tactile sensor data Classifier
 
 It is tested on Ubuntu 16.04 & python3
 
