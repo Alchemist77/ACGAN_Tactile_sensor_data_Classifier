@@ -1,6 +1,6 @@
 # ACGAN for Tactile sensor data Classifier
 
-It is tested on Ubuntu 16.04 & python3
+It is tested on Ubuntu 16.04 & python3 & pytorch
 
 It is an object classification task with tactile sensor data. We converted from the sensor data to the image data for using ACGAN. 
 
