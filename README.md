@@ -4,7 +4,7 @@ It is tested on Ubuntu 16.04 & python3 & pytorch
 
 It is an object classification task with tactile sensor data. We converted from the sensor data to the image data for using ACGAN. 
 
-The data collected by a Domestic robot(Doro)[1] with three Optoforce sensors attached on the fingers has 15 features.
+The data, collected by a Domestic robot(Doro)[1] with three Optoforce sensors attached on the fingers, has 15 features.
 
 ## data structure
 0: OptoForce 1 x
