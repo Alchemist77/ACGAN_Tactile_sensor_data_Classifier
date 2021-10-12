@@ -6,6 +6,7 @@ It is an object classification task with tactile sensor data. We converted from 
 
 The data, collected by a Domestic robot(Doro)[1] with three Optoforce sensors attached on the fingers, has 15 features.
 
+![Alt text](https://github.com/Alchemist77/ACGAN_Tactile_sensor_data_Classifier/blob/main/doro_tactile.png?raw=true "Doro with Optoforce sensors")
 
 
 ## Data structure
