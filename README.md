@@ -6,7 +6,9 @@ It is an object classification task with tactile sensor data. We converted from 
 
 The data, collected by a Domestic robot(Doro)[1] with three Optoforce sensors attached on the fingers, has 15 features.
 
-## data structure
+
+
+## Data structure
 0: OptoForce 1 x
 
 1: OptoForce 1 y
