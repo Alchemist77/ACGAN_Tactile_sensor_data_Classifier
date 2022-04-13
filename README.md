@@ -48,4 +48,6 @@ python3 acgan.py
 ###  References
 https://github.com/eriklindernoren/PyTorch-GAN
 1. Cavallo, Filippo, et al. "Development of a socially believable multi-robot solution from town to home." Cognitive Computation 6.4 (2014): 954-967.
+2. Odena, Augustus, Christopher Olah, and Jonathon Shlens. "Conditional image synthesis with auxiliary classifier gans." International conference on machine learning. PMLR, 2017.
+3. Philip Maus*, Kim, Jaeseok*, Olivia Nocentini, Muhammad Zain Bashir and Filippo Cavallo, “Tactile-based Object Classification using Sensorized Gripper and Deep Learning approach”, IEEE Sensors, 2021 (revision)
 
