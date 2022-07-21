@@ -42,24 +42,18 @@ The data, collected by a Domestic robot(Doro)[1] with three Optoforce sensors at
 14: finger angle 3
 
 ## Prerequisites
-Ubuntu 16.04
+* Ubuntu 16.04
 
-Python 3
+* Python 3
 
-ROS kinetic
+* ROS kinetic
 
-pytorch
+* pytorch
 
 ## run
 ```
 python3 acgan.py
 ```
-
-###  References
-https://github.com/eriklindernoren/PyTorch-GAN
-1. Cavallo, Filippo, et al. "Development of a socially believable multi-robot solution from town to home." Cognitive Computation 6.4 (2014): 954-967.
-2. Odena, Augustus, Christopher Olah, and Jonathon Shlens. "Conditional image synthesis with auxiliary classifier gans." International conference on machine learning. PMLR, 2017.
-3. Philip Maus*, Kim, Jaeseok*, Olivia Nocentini, Muhammad Zain Bashir and Filippo Cavallo, “Tactile-based Object Classification using Sensorized Gripper and Deep Learning approach”, IEEE Sensors, 2021 (revision)
 
 # The Impact of Data Augmentation on Tactile-Based Object Classification Using Deep Learning Approach
 Abstract—A safe and versatile interaction between humans and objects is based on tactile and visual information. In literature, visual sensing is widely explored compared to tactile sensing, despite showing significant limitations in environments with an obstructed view. Tactile perception does not depend on those factors. In this paper, a Machine Learningbased tactile object classification approach is presented. The hardware setup is composed of a 3-finger-gripper of a robotic manipulator mounted on the Doro robot of the Robot-Era project. This paper’s main contribution is the augmentation of the custom 20 class 2000 sample tactile time-series dataset using random jitter noise, scaling, magnitude, time warping, and cropping. The effect on the object recognition performance of the dataset expansion is investigated for the neural network architectures MLP, LSTM, CNN, CNNLSTM, ConvLSTM, and deep CNN (D-CNN). The data augmentationmethods brought a statisticallysignificantobject classification accuracy increase compared to models trained on the original dataset. The best tactile object classificationsuccess rate of 72.58% is achieved for the D-CNN trained on an augmented dataset derived from scaling and time warping augmentation.
@@ -71,3 +65,9 @@ Abstract—A safe and versatile interaction between humans and objects is based 
   year={2022},
   publisher={IEEE}
 }
+
+###  References
+https://github.com/eriklindernoren/PyTorch-GAN
+1. Cavallo, Filippo, et al. "Development of a socially believable multi-robot solution from town to home." Cognitive Computation 6.4 (2014): 954-967.
+2. Odena, Augustus, Christopher Olah, and Jonathon Shlens. "Conditional image synthesis with auxiliary classifier gans." International conference on machine learning. PMLR, 2017.
+3. Philip Maus*, Kim, Jaeseok*, Olivia Nocentini, Muhammad Zain Bashir and Filippo Cavallo, “Tactile-based Object Classification using Sensorized Gripper and Deep Learning approach”, IEEE Sensors, 2021 (revision)
