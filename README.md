@@ -43,8 +43,11 @@ The data, collected by a Domestic robot(Doro)[1] with three Optoforce sensors at
 
 ## Prerequisites
 Ubuntu 16.04
+
 Python 3
+
 ROS kinetic
+
 pytorch
 
 ## run
