@@ -3,7 +3,7 @@
 It is the extendtion of this work,
 https://github.com/philipmaus/Tactile_Object_Classification
 
-It is an object classification task with tactile sensor data. We converted from the sensor data to the image data for using ACGAN. 
+It is an object classification task with tactile sensor data. We converted from the sensor data to the image data for using ACGAN [2]. 
 
 The data, collected by a Domestic robot(Doro)[1] with three Optoforce sensors attached on the fingers, has 15 features.
 
@@ -72,4 +72,3 @@ Abstract—A safe and versatile interaction between humans and objects is based 
 https://github.com/eriklindernoren/PyTorch-GAN
 1. Cavallo, Filippo, et al. "Development of a socially believable multi-robot solution from town to home." Cognitive Computation 6.4 (2014): 954-967.
 2. Odena, Augustus, Christopher Olah, and Jonathon Shlens. "Conditional image synthesis with auxiliary classifier gans." International conference on machine learning. PMLR, 2017.
-3. Philip Maus*, Kim, Jaeseok*, Olivia Nocentini, Muhammad Zain Bashir and Filippo Cavallo, “Tactile-based Object Classification using Sensorized Gripper and Deep Learning approach”, IEEE Sensors, 2021 (revision)
